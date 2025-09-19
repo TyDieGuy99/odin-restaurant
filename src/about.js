@@ -24,6 +24,8 @@ export function getAboutPage(container) {
 
     const hours = createAndAppend('div', null, infoContainer, 'hours');
     createAndAppend('h3', 'Hours', hours);
+
+    //this is a test
 }
 
 function createAndAppend(tag, content, parent, id = null) {
